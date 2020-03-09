@@ -2,18 +2,8 @@
   "name": "electrontutorial",
   "version": "1.0.0",
   "description": "Writing my first electron app",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/matscottseah/Electron-Tutorial.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/matscottseah/Electron-Tutorial/issues"
-  },
-  "homepage": "https://github.com/matscottseah/Electron-Tutorial#readme"
+    "start": "electron ."
+  }
 }
